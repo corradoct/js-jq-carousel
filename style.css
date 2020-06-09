@@ -23,6 +23,7 @@
 .slider-wrapper .images img {
     display: none;
     height: 100%;
+    width: 90%;
 }
 .slider-wrapper .images img.active {
     display: inline-block;
@@ -35,6 +36,10 @@
     transform: translateY(-50%);
     font-size: 40px;
     cursor: pointer;
+}
+.prev > i:hover,
+.next > i:hover {
+  transform: scale(1.5);
 }
 .next {
     left: auto;
